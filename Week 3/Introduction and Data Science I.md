@@ -94,6 +94,8 @@ for i in infinite_sequence():
 
 Pandas cheat sheet: [link](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 
+Pandas visualization: [link](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+
 Pandas skills
 
 - Read and write csv files
@@ -104,3 +106,7 @@ Pandas skills
 - Data transformation: Filter, Map, Reduce
 - Combine data with `.concat()` and `.merge()`
 - Group data with `.groupby()`
+
+Click the button below to view the notebook discussing the above skills in more details
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MLDA-NTU/ml-training-programme-2021-22/blob/main/Week%203/%5BSCL_2020%5D_Marketing_Analytics.ipynb)
