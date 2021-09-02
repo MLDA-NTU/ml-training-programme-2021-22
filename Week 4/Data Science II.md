@@ -1,4 +1,4 @@
-# Data Science II - Machine Learning algorithms and techniques
+# Data Science II - Machine Learning algorithms and techniques for Tabular data
 
 Resources:
 
@@ -9,9 +9,11 @@ Resources:
 
 General ML
 
+- Describe a Machine Learning pipeline
 - What's the difference between hypothesis, actual (observed) outputs, and predicted outputs?
 - What does "linear" in linear models mean? How about non-linear?
-- Why do we need train-validation-test split?
+- What is a Baseline model? Bayes error rate?
+- Why do we need train-validation-test split? Is test set the same as validation set?
 - When do we need (and not need) to normalize the data?
 - How do we test/evaluate a model?
 - What's the difference between loss function and evaluation metrics?
@@ -30,6 +32,11 @@ Logistic regression
 - Compare Logistic regression and Linear regression
 - What's the loss function used in Logistic regression? Can we use mean squared error (L2 loss) for logistic regression?
 
+Naive-Bayes
+
+- What is Naive-Bayes' formulation? What is the naive assumption?
+- How do we optimize for Naive-Bayes
+
 Support Vector Machine
 
 - What are support vectors?
@@ -44,6 +51,6 @@ Tree-based algorithms
 
 Boosting algorithms
 
-- XGBoost
-- CatBoost
-- LightGBM
+- [XGBoost](https://xgboost.ai/)
+- [CatBoost](https://catboost.ai/)
+- [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
