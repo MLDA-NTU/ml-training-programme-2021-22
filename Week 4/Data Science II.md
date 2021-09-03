@@ -37,7 +37,7 @@ Naive-Bayes
 - What is Naive-Bayes' formulation? What is the naive assumption?
 - How do we optimize for Naive-Bayes
 
-Support Vector Machine
+Support Vector Machine (good explanation [here](https://web.mit.edu/6.034/wwwbob/svm.pdf))
 
 - What are support vectors?
 - How do we optimize for SVM?
@@ -54,3 +54,5 @@ Boosting algorithms
 - [XGBoost](https://xgboost.ai/)
 - [CatBoost](https://catboost.ai/)
 - [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
+
+Fun article to read: [NVIDIA used XGBoost to win RecSys2021](https://medium.com/nvidia-merlin/winning-the-recsys2021-challenge-by-a-diverse-set-of-xgboost-and-neural-network-models-4c5422a642d8)
