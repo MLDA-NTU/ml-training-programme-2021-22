@@ -49,6 +49,10 @@ Visualize transformations in Neural Network: [vcubingx's video](https://youtu.be
   - Optimizers: SGD, SGD with momentum, Adam, RMSprop
 - Best practices: logging, checkpoints
 
+**Autograd with PyTorch** Click the button below to open the notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MLDA-NTU/ml-training-programme-2021-22/blob/main/Week%205/Autograd_with_PyTorch.ipynb)
+
 ## Common topologies
 
 - Parallel heads (at output)
