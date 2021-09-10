@@ -40,12 +40,13 @@ Visualize transformations in Neural Network: [vcubingx's video](https://youtu.be
 
 ## Training a neural network
 
-- Weight initialization
+- Weight initialization [DeepLearning.AI notes](https://www.deeplearning.ai/ai-notes/initialization/)
   - Break the symmetry
   - Avoid exploding variance: Xavier and Kaiming initialization (read more [here](https://pouannes.github.io/blog/initialization/))
 - Mini-batch training
-- Loss function
-- Optimizers: SGD, SGD with momentum, Adam, RMSprop
+- Gradient-based training [DeepLearning.AI notes](https://www.deeplearning.ai/ai-notes/optimization/)
+  - Loss function
+  - Optimizers: SGD, SGD with momentum, Adam, RMSprop
 - Best practices: logging, checkpoints
 
 ## Common topologies
