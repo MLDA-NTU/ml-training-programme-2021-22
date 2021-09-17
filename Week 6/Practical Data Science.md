@@ -38,6 +38,8 @@ Some interesting ideas for a Data Science project: [UpLevel](https://dataproject
 
 Dataset: [Wine Quality](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
 
+Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MLDA-NTU/ml-training-programme-2021-22/blob/main/Week%206/wine_quality.ipynb)
+
 General steps in a Data Science project
 
 1. Download and import the data
