@@ -19,6 +19,10 @@ Other links
 - Torchvision models: https://pytorch.org/vision/stable/models.html
 - MLDA Academics Recruitment task 2021: https://github.com/gau-nernst/mlda-acad-recruitment
 
+Notebook used: Transfer Learning with PyTorch Lightning and Visualization of convolution filters (modified from the Recruitment task notebook)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MLDA-NTU/ml-training-programme-2021-22/blob/main/Week%208/Animal_crossing_vs_Doom.ipynb)
+
 ## Overview of vision tasks
 
 Vision tasks does not only include **Images**, but also other data types such as **point cloud** and **video**. Some tasks we can do with vision:
