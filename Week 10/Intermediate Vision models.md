@@ -45,6 +45,8 @@ Generally there are 2 ways to build an ML application:
 
 ## Deep dive into CNN architecture
 
+Notebook for this activity (and Semantic segmentation): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MLDA-NTU/ml-training-programme-2021-22/blob/main/Week%2010/CNN_and_Segmentation.ipynb)
+
 Generally, most CNNs contain 5 stages. Each stage downsamples the image by 2 times and increases the number of channels.
 
 E.g. ResNet-50, with input image 224 x 224 x 3 (See Table 1 in the ResNet paper. [[PDF](https://arxiv.org/pdf/1512.03385.pdf)])
