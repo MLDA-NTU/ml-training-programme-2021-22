@@ -13,6 +13,18 @@ Things you can do with NLP
 - Text generation
 - Question answering
 
+Some libraries
+
+- [spaCy](https://spacy.io/)
+- [Natural Language Toolkit - nlkt](https://www.nltk.org/)
+
+Some algorithms / models:
+
+- TF-IDF (term frequency-inverse document freuency)
+- Probabilistic models: Naive Bayes, (Hidden) Markov Model
+- Recurrent-based: RNN, GRU, LSTM
+- Attention-based: transformers
+
 ## Understand text data
 
 **Keywords**: sequence, token, tokenization, unigram, bigram, n-gram, corpus
@@ -30,6 +42,18 @@ Wikipedia's Singapore page ([source](https://en.wikipedia.org/wiki/Singapore))
 
   > Các hòn đảo của Singapore có con người định cư lần đầu tiên vào thế kỷ thứ II TCN và sau đó thuộc một số quốc gia bản địa. Năm 1819, chính trị gia người Anh Stamford Raffles đã thành lập nên Nhà nước Singapore hiện đại với vai trò là một trạm mậu dịch của Công ty Đông Ấn Anh, hành động này được Vương quốc Johor chấp thuận.
 
+- Text is a sequence of words (or more correctly, tokens). Text can have variable length. A model consuming text data should be able to take variable-length inputs
+- Token is the smallest unit in text data, similar to pixel in image data. Some popular choices: words, characters, sub-word (used in transformers)
+- Tokenization is the process of converting text into tokens. It needs to handle some nasty cases, like punctuations (`NTU is awesome!!!`), short forms (`I am` vs `I'm`). Relevant keywords: lemmatization, stemming
+- Unigram / Bigram / N-gram: 1-token, 2-token, or n-token
+- Corpus: collection of texts
+
+Some linguistic aspects
+
+- Grammar and sentence/text structure
+- Fluency from word phrases
+- Complex interaction among the words: order is important!
+- Long-range dependence (vs local dependence in image data)
 
 ## Text cleaning
 
@@ -41,6 +65,23 @@ Activity:
 - Python string functions: indexing, split, replace, remove, combine (`+`, f-string, and `.join()`), lowercase, startswith
 - Regex: match one or more, remove many characters in one step, punctuations, emojis
 
-## Probabilistic Sequence Modelling
+## Word vectors and Text embeddings
 
+[TensorFlow's Projector](https://projector.tensorflow.org/)
 
+Some cool properties of word embeddings
+
+- Simimlar words are close together
+- Similar transformations across word pairs
+- Multilingual embeddings: same words across languages have similar embeddings
+
+![word vectors](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/06/06062705/Word-Vectors.png)
+
+Some word embeddings algorithms: Word2Vec, GloVe, [fastText](https://fasttext.cc/)
+
+We can build text embeddings from its constituent words' vectors
+
+- Naive approach: sum/average word vectors (Bag of Words - BoW)
+- Better approach: recurrent-based or attention-based
+
+Note: we can build text embeddings without word vectors -> TF-IDF
