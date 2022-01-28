@@ -25,6 +25,8 @@ Some algorithms / models:
 - Recurrent-based: RNN, GRU, LSTM
 - Attention-based: transformers
 
+[Click here for Notebook](Intro_to_NLP.ipynb)
+
 ## Understand text data
 
 **Keywords**: sequence, token, tokenization, unigram, bigram, n-gram, corpus
