@@ -13,8 +13,8 @@
 
 Types of attentions
 
-- Self-attention: when Q = K. Usually in encoder.
-- Cross-attention: when Q <> K. Usually in decoder.
+- Self-attention: when Q = V. Usually in encoder.
+- Cross-attention: when Q <> V. Usually in decoder.
 
 ## Main ingredients of a transformer
 
