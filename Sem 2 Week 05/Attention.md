@@ -7,14 +7,21 @@
 
 ![attention](https://miro.medium.com/max/624/0*WbmLoUnqt4lESy-X.png)
 
+- Q: query
+- K: key
+- V: value
+
 **Idea 1**: Similar vectors have dot product equal to 1 (normalized). Also known as cosine similarity
 
 **Idea 2**: We want to focus on (attend to) important information
 
-Types of attentions
+**Attention**: For a query vector Q, Attention is the weighted sum of relevant vectors V
 
-- Self-attention: when Q = V. Usually in encoder.
-- Cross-attention: when Q <> V. Usually in decoder.
+Notes:
+
+- K (key) and V (value) are always the same
+- When Q = K -> self-attention (attend to itself). Usually in encoder
+- When Q != -> cross-attention (attend to another sequence). Usually in decoders
 
 ## Main ingredients of a transformer
 
