@@ -3,6 +3,11 @@
 - RNN cheatsheet from CS230: [link](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 - MIT's 6.S191 lecture on RNN: [YouTube](https://www.youtube.com/watch?v=SEnXr6v2ifU)
 
+Notebooks
+
+- Explore NLP and Word-frequency + Word-vectors: [NLP with Deep Learning](NLP_with_Deep_Learning.ipynb)
+- RNN architecture: [RNN](RNN.ipypnb)
+
 ## Recurrent Neural Network
 
 General form
