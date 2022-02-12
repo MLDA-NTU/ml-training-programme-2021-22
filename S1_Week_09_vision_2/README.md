@@ -1,5 +1,7 @@
 # Intermediate Vision models
 
+Notebook: [CNN and Segmentation](CNN_and_Segmentation.ipynb)
+
 ## Object detection with YOLOv5
 
 A "direct upgrade" to image classification is object detection. Compared to image classification, object detection aims to **localize** the detection i.e. find where in the image the object is.
@@ -44,8 +46,6 @@ Generally there are 2 ways to build an ML application:
 - Train on your custom data. Do this when the performance from using the first option is bad, or your objects of interest are not in the pre-trained dataset.
 
 ## Deep dive into CNN architecture
-
-Notebook for this activity (and Semantic segmentation): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MLDA-NTU/ml-training-programme-2021-22/blob/main/Week%2010/CNN_and_Segmentation.ipynb)
 
 Generally, most CNNs contain 5 stages. Each stage downsamples the image by 2 times and increases the number of channels.
 

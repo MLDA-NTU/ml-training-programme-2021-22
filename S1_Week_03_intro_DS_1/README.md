@@ -1,5 +1,7 @@
 # Introduction and Data Science I
 
+Notebook: [Marketing Analytics]([SCL_2020]_Marketing_Analytics.ipynb)
+
 ## What is Artificial Intelligence, Machine Learning, Data Science, and Deep Learning?
 
 Three levels of AI
@@ -108,5 +110,3 @@ Pandas skills
 - Group data with `.groupby()`
 
 Click the button below to view the notebook discussing the above skills in more details
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MLDA-NTU/ml-training-programme-2021-22/blob/main/Week%203/%5BSCL_2020%5D_Marketing_Analytics.ipynb)
