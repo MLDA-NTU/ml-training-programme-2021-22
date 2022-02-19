@@ -1,6 +1,6 @@
 # Machine Learning Training Programme (2021 - 2022)
 
-This repo hosts the resources and materials used in MLDA''s Machine Learning Training Programme
+This repo hosts the resources and materials used in MLDA''s Machine Learning Training Programme. Please click any of the folder above, or the links below, to navigate.
 
 ## Semester 1
 
@@ -21,4 +21,4 @@ Week | Title | Topics | Link
 3 | Introduction to NLP | Overview of text data. Word vectors | [link](S2_Week_03_nlp_1)
 4 | NLP with Deep Learning | Some text models. Recurrent Neural Networks | [link](S2_Week_04_nlp_2)
 5 | Attention | Sequence-to-sequence models. Attention mechanism | [link](S2_Week_05_nlp_3)
-6 | Transformers
+6 | Transformers | Structure of a transformer model. Some popular transformer models | [link](S2_Week_06_nlp4)
